@@ -101,6 +101,13 @@ footer {
   -webkit-border-radius: 24px;
   -moz-border-radius: 24px;
 }
+.modal-dialog {
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -173px;
+}
 
 /* Responsive Styling */
 @media (max-width: 1199px) {
