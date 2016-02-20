@@ -20,7 +20,7 @@ $("a.navbar-brand[href^='#']").on('click', function(e) {
    // animate
    $('html, body').animate({
        scrollTop: $(this.hash).offset().top -50
-     }, 300, function(){
+     }, 700, function(){
        // when done, add hash to url
        // (default click behaviour)
        window.location.hash = hash;
