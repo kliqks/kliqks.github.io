@@ -89,6 +89,19 @@ footer {
   margin-bottom: 10px;
 }
 
+.modal-content button.close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  font-size: 28px;
+  width: 30px;
+  opacity: 1;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+}
+
 /* Responsive Styling */
 @media (max-width: 1199px) {
   .jumbotron h1 {
