@@ -328,3 +328,9 @@ h2 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.sticky-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
