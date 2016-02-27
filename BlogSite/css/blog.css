@@ -121,6 +121,25 @@ h2 {
   margin-bottom: 0;
 }
 
+#about img {
+  border-radius: 100px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+#about h1 {
+  color: #e74c3c;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+#first-paragraph {
+  clear: left;
+  padding-top:  20px;
+}
+
 .blog-post-meta .btn-danger:hover {
   background-color: #d2322d;
 }
