@@ -1,0 +1,27 @@
+.jumbotron {
+	background: url('../images/hero_image.jpg') no-repeat center center;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding-top: 170px;
+	padding-bottom: 170px;
+	border-top: 3px solid #e74c3c;
+}
+
+.jumbotron h1 {
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 20px;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,.1);
+	text-shadow: 1px 1px 2px #333;
+}
+
+.highlight {
+	color: #e74c3c;
+}
