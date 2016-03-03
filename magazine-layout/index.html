@@ -16,6 +16,9 @@
     <!-- Arvo from google fonts -->
     <link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
+    <!-- Include Font-Awesome -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"><br>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,11 +27,75 @@
     <![endif]-->
   </head>
   <body>
+    <nav class="navbar navbar-inverse navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="MASSIVE Academy"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">Start Learning</a></li>
+            <li><a href="#contact">About Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
     <div class="jumbotron">
       <div class="container">
-      <h1>We are <span class="highlight">improving education</span><br> through the material we teach and the method by which we deliver our lessons.</h1>
+        <h1>We are <span class="highlight">improving education</span><br> through the material we teach and the method by which we deliver our lessons.</h1>
       </div>
     </div>
+    
+    <div id="bottom-section" class="container-fluid">
+      <div class="row">
+        <div id="byfw" class="col-md-4">
+          <p>Learn the basics of HTML5 and CSS3 and have your first website up in 1 week. Hecks yeah!</p>
+          <p><button class="btn btn-success">Learn More</button></p>
+        </div>
+        <div id="baw" class="col-md-4">
+          <p>Be able to build beautiful, startup quality sites. Learn HTML5 and CSS3 in less than 1 month.</p>
+          <p><button class="btn btn-success">Learn More</button></p>
+        </div>
+        <div id="oml" class="col-md-4">
+          <p>We are bringing coding in to the Vegas school system to empower's Vegas's future today.</p>
+          <p><button class="btn btn-success">Get Involved</button></p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="col-sm-6">
+          <p>Made in Japan with <i class="fa fa-heart"></i> | &#169; 2016 Chris Inman</p>
+        </div>
+          <div class="col-sm-6 right-align">
+              <a href="#"><span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-question fa-stack-1x fa-inverse"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span></a>
+          </div>
+      </div>
+
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

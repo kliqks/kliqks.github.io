@@ -1,3 +1,29 @@
+body {
+	font-family: klavika, arvo, "Helvetica neue", serif;
+	font-size: 16px;
+}
+
+footer {
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: #fefefe;
+}
+
+footer a {
+	color: #ccc;
+}
+
+footer p {
+	margin-top: 5px;
+}
+
+
+.right-align {
+	text-align: right;
+}
+
 .jumbotron {
 	background: url('../images/hero_image.jpg') no-repeat center center;
 	-o-background-size: cover;
@@ -7,10 +33,11 @@
 	padding-top: 170px;
 	padding-bottom: 170px;
 	border-top: 3px solid #e74c3c;
+	margin-top: -65px;
+	margin-bottom: 0px;
 }
 
 .jumbotron h1 {
-	font-family: klavika, arvo, "Helvetica neue", serif;
 	padding: 10px;
 	text-align: center;
 	margin: 10px 20px;
@@ -24,4 +51,60 @@
 
 .highlight {
 	color: #e74c3c;
+}
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	margin-bottom: 0px;
+	padding-top: 10px;
+}
+.navbar-brand img {
+	width: 90%;
+	max-width: 353px;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fefefe;
+	opacity: .7;
+	text-transform: uppercase;
+	padding-top: 25px;
+	padding-bottom: 10px;
+}
+
+#byfw {
+	background-image: url(../images/byfw.jpg);
+	background-color: #e74c3c;
+}
+#baw {
+	background-image: url(../images/baw.png);
+	background-color: #f39c12;
+}
+#oml {
+	background-image: url(../images/oml.jpg);
+	background-color: #f1c40f;
+}
+
+#bottom-section .col-md-4 {
+	min-height: 300px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding-top: 250px;
+}
+
+#bottom-section .col-md-4 p {
+	color: white;
+	font-family: klavika, 'arvo', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+#bottom-section .col-md-4 .btn-success {
+	background-color: #27ae60;
+	margin-bottom: 5px;
+	font-size: 20px;
+	font-weight: 100;
+}
+#bottom-section .col-md-4:hover {
+	opacity: .9;
 }
