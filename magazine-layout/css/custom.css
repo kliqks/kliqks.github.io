@@ -20,6 +20,8 @@ footer p {
 }
 
 
+
+
 .right-align {
 	text-align: right;
 }
@@ -84,27 +86,57 @@ footer p {
 	background-color: #f1c40f;
 }
 
-#bottom-section .col-md-4 {
+#bottom-section a:hover {
+	text-decoration: none;
+}
+
+#bottom-section .col-sm-4 {
 	min-height: 300px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 20%;
 }
 
-#bottom-section .col-md-4 p {
+#bottom-section .col-sm-4 p {
 	color: white;
 	font-family: klavika, 'arvo', sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	margin-bottom: 10px;
 }
-#bottom-section .col-md-4 .btn-success {
+#bottom-section .col-sm-4 .btn-success {
 	background-color: #27ae60;
 	margin-bottom: 5px;
 	font-size: 20px;
 	font-weight: 100;
 }
-#bottom-section .col-md-4:hover {
+#bottom-section .col-sm-4:hover {
 	opacity: .9;
+}
+
+/* responsive design */
+@media (max-width: 768px) { 
+	#bottom-section .col-sm-4 {
+		min-height: 425px;
+		padding-top: 55%;
+		padding-bottom: 5px;
+	}
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+	.navbar-brand {
+		width: 50%;
+	}
+	.navbar-brand img {
+		width: 220px;
+	}
+	.navbar-inverse .navbar-brand {
+		border: none;
+	}
+	.jumbotron {
+		margin-top: -186px;
+		padding-top: 210px;
+		padding-bottom: 90px;
+	}
 }
